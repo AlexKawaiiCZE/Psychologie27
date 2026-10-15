@@ -1,0 +1,31 @@
+{
+  "id": "./index.html",
+  "name": "Psychologie 2027 – Studijní plán",
+  "short_name": "Psychologie 2027",
+  "description": "Osobní plán pro psychologii: Hilgard, Orel, 210 otázek a opakování.",
+  "lang": "cs",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f8fc",
+  "theme_color": "#142139",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "prefer_related_applications": false
+}

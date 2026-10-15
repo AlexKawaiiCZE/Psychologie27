@@ -1,0 +1,25 @@
+PSYCHOLOGIE 2027 – MOBILNÍ APLIKACE (PWA)
+=================================================
+
+Toto je instalovatelná webová aplikace (PWA) pro Android a iPhone.
+Obsahuje 35 studijních bloků, 210 otázek, termíny, opakování,
+vyhodnocení a místní ukládání pokroku. Nevyžaduje žádné externí knihovny.
+
+JAK JI ZPROVOZNIT NA TELEFONU
+1) Rozbal celou tuto ZIP složku.
+2) Nahraj ji na HTTPS hosting (například přes https://app.netlify.com/drop
+   přetažením rozbalené složky z počítače; můžeš použít i GitHub Pages).
+3) Na telefonu otevři vzniklý HTTPS odkaz.
+   - Android / Chrome: menu ⋮ → Nainstalovat aplikaci / Přidat na plochu.
+   - iPhone / Safari: Sdílet → Přidat na plochu.
+4) Otevři ikonu na ploše. Po prvním online načtení by měla fungovat offline.
+
+DŮLEŽITÉ
+- Toto není přímo soubor APK nebo IPA. PWA vyžaduje pro instalaci HTTPS.
+- Pro samotné prohlížení lze otevřít index.html také v prohlížeči,
+  ale instalace a trvalé ukládání u souborového zobrazení nejsou spolehlivé.
+- Pokrok je uložen jen v prohlížeči na dané adrese (localStorage); nenahrává se
+  na server. Před změnou telefonu, resetem prohlížeče či změnou domény
+  stáhni Záloha JSON a později použij Obnovit zálohu.
+- Pokud máš Orla ve vydání 2019, mohou se stránky lišit od vydání 2026.
+- Testy jsou původní procvičovací otázky, ne oficiální přijímací testy.
